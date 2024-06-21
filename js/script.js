@@ -57,11 +57,29 @@ const thief = {
     isLong: false,
 }
 
-console.log(thief.jacket);
-console.log(thief["jacket"]);
+// console.log(thief.jacket);
+// console.log(thief["jacket"]);
 
     // Array
 //                0        1        2     3   index raqamlari
 const colors = ["red", "black", "green", 10 ]
-console.log(colors[0]);
+// console.log(colors[0]);
 
+
+        // 5-dars Foydalanuvchi bilan aloqa
+// const place = confirm("are you here");
+// console.log(place);
+
+// const currentPlace = prompt("where are you", "ism");
+// console.log(typeof currentPlace);
+
+// const age = +prompt("How old are you", "18")
+// console.log( typeof age);
+
+const favouriteColor = [];
+
+favouriteColor[0] = prompt("1", "")
+favouriteColor[1] = prompt("2", "")
+favouriteColor[2] = prompt("3", "")
+
+console.log(typeof favouriteColor);
