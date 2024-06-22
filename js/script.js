@@ -78,8 +78,21 @@ const colors = ["red", "black", "green", 10 ]
 
 const favouriteColor = [];
 
-favouriteColor[0] = prompt("1", "")
-favouriteColor[1] = prompt("2", "")
-favouriteColor[2] = prompt("3", "")
+// favouriteColor[0] = prompt("1", "")
+// favouriteColor[1] = prompt("2", "")
+// favouriteColor[2] = prompt("3", "")
 
-console.log(typeof favouriteColor);
+// console.log(typeof favouriteColor);
+
+      // 6-dars Interpolyatsiya
+
+// const chanel = prompt('whats your youtube chanel', "");
+// console.log(`https://youtube.com/${chanel}`);
+
+const user = 'Ayubxon'
+const job = 'web developer'
+
+// console.log(`user name ${user}`, `job ${job}`);
+
+// const client = prompt("Hello world");
+// console.log(client);
