@@ -84,7 +84,7 @@ const favouriteColor = [];
 
 // console.log(typeof favouriteColor);
 
-      // 6-dars Interpolyatsiya
+      // 6-dars Interpolyatsiy
 
 // const chanel = prompt('whats your youtube chanel', "");
 // console.log(`https://youtube.com/${chanel}`);
@@ -96,3 +96,35 @@ const job = 'web developer'
 
 // const client = prompt("Hello world");
 // console.log(client);
+
+      // 7-dars Operatorlar
+
+// console.log(6 +  '9');
+
+// incr , decr
+
+let incr = 10;
+let decr = 10;
+
+// console.log(++incr);
+// console.log(--decr);
+
+// console.log(10 % 3);
+
+// console.log(5 * 5 === '25');
+
+// && = va
+// || = yoki
+
+const  isAge = true;
+const isClose = true;
+const isChecked = false;
+
+// console.log(isAge && isClose && isChecked);
+// console.log(isAge || isClose || isChecked);
+
+// console.log(2 + 2 * 2 !== 6);
+
+
+
+
