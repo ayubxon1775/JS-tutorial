@@ -126,5 +126,87 @@ const isChecked = false;
 // console.log(2 + 2 * 2 !== 6);
 
 
+   // 9-dars Amaliyot
+
+// let numberOfSeries = +prompt('Nechta serial kordingiz', "");
+// const seriesDB = {
+//    // count : numberOfSeries,
+//    series: {},
+//    actors : {},
+//    genres : [],
+//    private: false
+// }
+
+// const a = prompt("Oxirgi ko'rgan serialingiz");
+// const b = prompt("Nechi baho berdingiz");
+// const c = prompt("Oxirgi ko'rgan serialingiz");
+// const d = prompt("Nechi baho berdingiz");
+
+// seriesDB.series[a] = b;
+// seriesDB.series[c] = d;
+
+// console.log(seriesDB);
 
 
+   // 11-dars Sikl
+
+let countNumber = 1;
+// first sikl
+// while(countNumber <= 20){
+   // console.log(countNumber);
+   // countNumber++
+// }
+// second sikl
+// do {
+//    console.log(countNumber);
+//    countNumber++
+// }while (countNumber <=10)
+
+//  three sikl
+
+// for(let i = 1; i <= 17; i++){
+//    if(i === 8){
+//       // break
+//       continue
+//    }
+//    console.log(i);
+// }
+
+// 12-dars Amaliyot
+
+// let numberOfSeries = +prompt('Nechta serial kordingiz', "");
+
+
+
+// const seriesDB = {
+//    count : numberOfSeries,
+//    series: {},
+//    actors : {},
+//    genres : [],
+//    private: false
+// }
+
+// for(let i = 0; i < 2; i++){
+//    const a = prompt("Oxirgi ko'rgan serialingiz");
+//    const b = prompt("Nechi baho berdingiz");
+
+//    if (a != null && b != "" && a != "" && b != "") {
+//       seriesDB.series[a] = b;
+//       console.log("done");
+//    }else {
+//       console.log("error");
+//       i--
+//    }
+   
+// }
+// if(seriesDB.count < 5){
+//    console.log("Kam serial ko'ribsiz");
+// }else if(seriesDB.count > 5 && seriesDB.count < 10 ){
+//    console.log("siz klassik tomoshabin ekansiz");
+// }else if (seriesDB.count > 10){
+//    console.log("Siz serialchi zvezda ekansiz");
+// }else{
+//    console.log("error");
+// }
+
+// console.log(seriesDB);
