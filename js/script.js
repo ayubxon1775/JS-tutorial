@@ -350,4 +350,35 @@ let countNumber = 1;
 // function done(){
 //    console.log("That's great");
 // }
-// edu("JavaScript", done)
+// edu("JavaScript", done);
+
+const theif =  {
+   jacket: "black",
+   height: 1.7,
+   colors: {
+      hair: "gray",
+      style: "curley",
+   },
+   howOut: function() {
+      console.log("Fast with help doors");
+   },
+};
+theif.howOut();
+
+const { hair, style } = theif.colors;
+
+console.log(hair);
+console.log(style);
+
+// let count = 0;
+
+// for (let key in theif){
+   // if(typeof theif [key] === "object"){
+   //    for (let i in theif[key]) {
+   //       console.log(`Property ${i} has value ${theif[key][i]}`);
+   //    }
+   // }else {
+   //    console.log(`Property ${key} has value ${theif[key]}`);
+   // }
+// }
+
