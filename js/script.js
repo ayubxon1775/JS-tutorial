@@ -30,39 +30,39 @@
 
 //         4-dars   Data types Primitive
 
-let number = 5.6; //DAta type number
+// let number = 5.6; //DAta type number
 // console.log(-8 / 0);// Infinity
 // console.log("ayub"/8);// NaN 
 
    // String
-const name = "ayubxon";
+// const name = "ayubxon";
 
-   // Boolean
-const isMerried = false;
-const isCircleEarth = true;
+//    // Boolean
+// const isMerried = false;
+// const isCircleEarth = true;
 
     // Null yoq o'zgaruvchi
 // console.log(namsj);
 
    // Undefined
-let und;
+// let und;
 // console.log(und);
 
 
    // Object
-const thief = {
-// key: value
-    age: 23,
-    jacket: "black",
-    isLong: false,
-}
+// const thief = {
+// // key: value
+//     age: 23,
+//     jacket: "black",
+//     isLong: false,
+// }
 
 // console.log(thief.jacket);
 // console.log(thief["jacket"]);
 
     // Array
 //                0        1        2     3   index raqamlari
-const colors = ["red", "black", "green", 10 ]
+// const colors = ["red", "black", "green", 10 ]
 // console.log(colors[0]);
 
 
@@ -76,7 +76,7 @@ const colors = ["red", "black", "green", 10 ]
 // const age = +prompt("How old are you", "18")
 // console.log( typeof age);
 
-const favouriteColor = [];
+// const favouriteColor = [];
 
 // favouriteColor[0] = prompt("1", "")
 // favouriteColor[1] = prompt("2", "")
@@ -89,8 +89,8 @@ const favouriteColor = [];
 // const chanel = prompt('whats your youtube chanel', "");
 // console.log(`https://youtube.com/${chanel}`);
 
-const user = 'Ayubxon'
-const job = 'web developer'
+// const user = 'Ayubxon'
+// const job = 'web developer'
 
 // console.log(`user name ${user}`, `job ${job}`);
 
@@ -103,8 +103,8 @@ const job = 'web developer'
 
 // incr , decr
 
-let incr = 10;
-let decr = 10;
+// let incr = 10;
+// let decr = 10;
 
 // console.log(++incr);
 // console.log(--decr);
@@ -116,9 +116,9 @@ let decr = 10;
 // && = va
 // || = yoki
 
-const  isAge = true;
-const isClose = true;
-const isChecked = false;
+// const  isAge = true;
+// const isClose = true;
+// const isChecked = false;
 
 // console.log(isAge && isClose && isChecked);
 // console.log(isAge || isClose || isChecked);
@@ -210,3 +210,144 @@ let countNumber = 1;
 // }
 
 // console.log(seriesDB);
+
+
+   // 13-dars Funksiyalar
+
+// console.log("Open modal");
+// let age = 30
+//    // Decloreation function
+// function Myfunc(name, surname){
+//    let age = 20 
+//    console.log(`${name} ${surname}`);
+//    console.log(age);
+// }
+// Myfunc("ayubxon", "Axmatxonov");
+// console.log(age);
+
+//    // Expression function
+
+//    const logger = function(){
+//       console.log("hello world");
+//    }
+//    logger()
+
+//    // Error function
+
+// const calc = (a) =>  {
+//    console.log("!");
+//    return a
+// }
+// calc()
+
+   // 14-dars Methodlar va Hususiyatlar
+
+// const user = "Ayubxon";
+// console.log(user[2]);
+
+// console.log(user.toUpperCase());
+// console.log(user.toLowerCase());
+// console.log(user);
+
+// const greeting = 'Hello world';
+// console.log(greeting.indexOf("i"));
+// console.log(greeting.slice(-1));
+// console.log(greeting.substring(5));
+// console.log(greeting.substr(6,5));
+
+// const num = 8.3;
+// console.log(Math.round(num));
+
+// const borderWidth = "13.8px";
+// console.log(parseInt(borderWidth));
+// console.log(parseFloat(borderWidth));
+
+   //15-dars Amaliyot
+
+
+
+// let numberOfSeries;
+
+// function startApp(){
+// numberOfSeries = +prompt('Nechta serial kordingiz', "");
+
+// while (
+//  numberOfSeries == "" ||
+//  numberOfSeries == null ||
+//   isNaN(numberOfSeries)
+// ) {
+//     numberOfSeries = +prompt('Nechta serial kordingiz', "");
+// }
+// }
+// startApp();
+
+// const seriesDB = {
+//    count : numberOfSeries,
+//    series: {},
+//    actors : {},
+//    genres : [],
+//    private: false
+// }
+
+// function rememberMySeries(){
+//    for(let i = 0; i < 2; i++){
+//       const a = prompt("Oxirgi ko'rgan serialingiz");
+//       const b = prompt("Nechi baho berdingiz");
+   
+//       if (a != null && b != "" && a != "" && b != "") {
+//          seriesDB.series[a] = b;
+//          console.log("done");
+//       }else {
+//          console.log("error");
+//          i--
+//       }
+      
+//    }
+// }
+// // rememberMySeries()
+
+// function detectLevelSeries(){
+//    if(seriesDB.count < 5){
+//       console.log("Kam serial ko'ribsiz");
+//    }else if(seriesDB.count > 5 && seriesDB.count < 10 ){
+//       console.log("siz klassik tomoshabin ekansiz");
+//    }else if (seriesDB.count > 10){
+//       console.log("Siz serialchi zvezda ekansiz");
+//    }else{
+//       console.log("error");
+//    }
+// }
+// detectLevelSeries()
+
+// function showDB(hidden){
+//    if(!hidden){
+//       console.log(seriesDB);
+//    }
+// }
+// showDB(seriesDB.private);
+
+// function writeGenres(){
+//    for (let i = 0; i <= 2; i++){
+//       const genre = prompt(`Yaxshi korgan janringiz ${i + 1}`);
+//       seriesDB.genres[i] = genre
+//    }
+// }
+// writeGenres()
+
+      // 16-dars Callback funksiya
+// function Myfunc(cb) {
+//    setTimeout(() => {
+//       console.log(5);
+//       cb();
+//    },3000)
+// }
+// Myfunc(edu)
+
+// function edu(subject, callback){
+//    console.log(`I wanna teach ${subject}`);
+//    callback();
+// }
+// function done(){
+//    console.log("That's great");
+// }
+// edu("JavaScript", done)
