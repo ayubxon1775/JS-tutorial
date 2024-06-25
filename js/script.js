@@ -352,23 +352,25 @@ let countNumber = 1;
 // }
 // edu("JavaScript", done);
 
-const theif =  {
-   jacket: "black",
-   height: 1.7,
-   colors: {
-      hair: "gray",
-      style: "curley",
-   },
-   howOut: function() {
-      console.log("Fast with help doors");
-   },
-};
-theif.howOut();
+   // 17-dars Object DEstruptizatsiya
 
-const { hair, style } = theif.colors;
+// const theif =  {
+//    jacket: "black",
+//    height: 1.7,
+//    colors: {
+//       hair: "gray",
+//       style: "curley",
+//    },
+//    howOut: function() {
+//       console.log("Fast with help doors");
+//    },
+// };
+// theif.howOut();
 
-console.log(hair);
-console.log(style);
+// const { hair, style } = theif.colors;
+
+// console.log(hair);
+// console.log(style);
 
 // let count = 0;
 
@@ -382,3 +384,39 @@ console.log(style);
    // }
 // }
 
+   // 18-dars 
+
+
+   const numbers = [5, 3, 20, 6, 2, 8, 11, 9, 16]
+console.log(numbers.sort((a , b) => a - b ));
+
+
+
+// arr[99] = 0
+// console.log(arr);
+
+// arr.forEach(function(item, index, arr){
+//    console.log(`${index}: ${item} into arr ${arr}`);
+// })
+
+// arr.pop();
+// arr.push(6)
+
+// arr.shift();
+// arr.unshift(0)
+
+// console.log(arr);
+
+// for(let i = 0; i < arr.length; i++){
+//    console.log(arr[i]);
+// }
+
+// for (let value of arr){
+//    console.log(value);
+// }
+
+// const movies = prompt("What's your movies","");
+
+// const allMovies = movies.split(", ")
+// allMovies.sort()
+// console.log(allMovies.join("- "));
