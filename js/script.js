@@ -384,11 +384,11 @@ let countNumber = 1;
    // }
 // }
 
-   // 18-dars 
+   // 18-dars Massivlar
 
 
-   const numbers = [5, 3, 20, 6, 2, 8, 11, 9, 16]
-console.log(numbers.sort((a , b) => a - b ));
+//    const numbers = [5, 3, 20, 6, 2, 8, 11, 9, 16]
+// console.log(numbers.sort((a , b) => a - b ));
 
 
 
@@ -420,3 +420,60 @@ console.log(numbers.sort((a , b) => a - b ));
 // const allMovies = movies.split(", ")
 // allMovies.sort()
 // console.log(allMovies.join("- "));
+
+
+      // 19 dars Clonlash, ES6
+
+// const number = {
+//    x: 5,
+//    y: 6,
+   
+// }
+// const addnumber ={
+//    f: 15
+// }
+
+// const newnumbers = Object.assign(number, addnumber)
+
+
+// console.log(newnumbers);
+
+
+// const arr = [1, 2, 3]
+// const numbers = arr.slice()
+
+// numbers[1] = 'ayubxon'
+
+// console.log(arr);
+// console.log(numbers);
+
+// SPREAD
+
+// const liverpool = [ 'Salah', 'Mane']
+// const Mancity = ['Mahrez']
+
+// const mixPlayer = [...liverpool, ...Mancity]
+
+// console.log(mixPlayer);
+
+//  ///  20-dars Spread operatori
+
+//  const calc = [1, 2, 3]
+ 
+
+// function logger(x, y, z){
+//    console.log(x + y + z);
+// }
+// logger(...calc)
+
+// const arr = ['x', 'y']
+// const newArr = [...arr]
+
+// const numbers = {
+//    x: 10,
+//    y: 5,
+// }
+// const Newnumbers = {...numbers};
+// console.log(numbers);
+// console.log(Newnumbers);
+
